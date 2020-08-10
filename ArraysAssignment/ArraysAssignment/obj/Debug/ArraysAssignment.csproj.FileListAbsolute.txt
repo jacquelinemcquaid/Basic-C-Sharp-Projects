@@ -1,0 +1,7 @@
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ArraysAssignment\ArraysAssignment\bin\Debug\ArraysAssignment.exe.config
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ArraysAssignment\ArraysAssignment\bin\Debug\ArraysAssignment.exe
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ArraysAssignment\ArraysAssignment\bin\Debug\ArraysAssignment.pdb
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ArraysAssignment\ArraysAssignment\obj\Debug\ArraysAssignment.csprojAssemblyReference.cache
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ArraysAssignment\ArraysAssignment\obj\Debug\ArraysAssignment.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ArraysAssignment\ArraysAssignment\obj\Debug\ArraysAssignment.exe
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ArraysAssignment\ArraysAssignment\obj\Debug\ArraysAssignment.pdb
