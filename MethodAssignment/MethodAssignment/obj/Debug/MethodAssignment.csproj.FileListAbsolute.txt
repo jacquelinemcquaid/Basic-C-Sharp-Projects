@@ -1,0 +1,7 @@
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\MethodAssignment\MethodAssignment\bin\Debug\MethodAssignment.exe.config
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\MethodAssignment\MethodAssignment\bin\Debug\MethodAssignment.exe
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\MethodAssignment\MethodAssignment\bin\Debug\MethodAssignment.pdb
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\MethodAssignment\MethodAssignment\obj\Debug\MethodAssignment.csprojAssemblyReference.cache
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\MethodAssignment\MethodAssignment\obj\Debug\MethodAssignment.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\MethodAssignment\MethodAssignment\obj\Debug\MethodAssignment.exe
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\MethodAssignment\MethodAssignment\obj\Debug\MethodAssignment.pdb
