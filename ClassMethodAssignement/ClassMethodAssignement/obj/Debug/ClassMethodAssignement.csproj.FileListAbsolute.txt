@@ -1,0 +1,7 @@
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ClassMethodAssignement\ClassMethodAssignement\bin\Debug\ClassMethodAssignement.exe.config
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ClassMethodAssignement\ClassMethodAssignement\bin\Debug\ClassMethodAssignement.exe
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ClassMethodAssignement\ClassMethodAssignement\bin\Debug\ClassMethodAssignement.pdb
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ClassMethodAssignement\ClassMethodAssignement\obj\Debug\ClassMethodAssignement.csprojAssemblyReference.cache
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ClassMethodAssignement\ClassMethodAssignement\obj\Debug\ClassMethodAssignement.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ClassMethodAssignement\ClassMethodAssignement\obj\Debug\ClassMethodAssignement.exe
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ClassMethodAssignement\ClassMethodAssignement\obj\Debug\ClassMethodAssignement.pdb
