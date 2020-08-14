@@ -1,0 +1,7 @@
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\InterfacesAssignment\InterfacesAssignment\bin\Debug\InterfacesAssignment.exe.config
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\InterfacesAssignment\InterfacesAssignment\bin\Debug\InterfacesAssignment.exe
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\InterfacesAssignment\InterfacesAssignment\bin\Debug\InterfacesAssignment.pdb
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\InterfacesAssignment\InterfacesAssignment\obj\Debug\InterfacesAssignment.csprojAssemblyReference.cache
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\InterfacesAssignment\InterfacesAssignment\obj\Debug\InterfacesAssignment.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\InterfacesAssignment\InterfacesAssignment\obj\Debug\InterfacesAssignment.exe
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\InterfacesAssignment\InterfacesAssignment\obj\Debug\InterfacesAssignment.pdb
