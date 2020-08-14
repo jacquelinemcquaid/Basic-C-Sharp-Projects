@@ -1,0 +1,7 @@
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\OperatorOverloadingAssignment\OperatorOverloadingAssignment\bin\Debug\OperatorOverloadingAssignment.exe.config
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\OperatorOverloadingAssignment\OperatorOverloadingAssignment\bin\Debug\OperatorOverloadingAssignment.exe
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\OperatorOverloadingAssignment\OperatorOverloadingAssignment\bin\Debug\OperatorOverloadingAssignment.pdb
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\OperatorOverloadingAssignment\OperatorOverloadingAssignment\obj\Debug\OperatorOverloadingAssignment.csprojAssemblyReference.cache
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\OperatorOverloadingAssignment\OperatorOverloadingAssignment\obj\Debug\OperatorOverloadingAssignment.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\OperatorOverloadingAssignment\OperatorOverloadingAssignment\obj\Debug\OperatorOverloadingAssignment.exe
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\OperatorOverloadingAssignment\OperatorOverloadingAssignment\obj\Debug\OperatorOverloadingAssignment.pdb
