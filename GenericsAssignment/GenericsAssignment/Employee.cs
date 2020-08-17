@@ -8,9 +8,10 @@ namespace GenericsAssignment
 {
     public class Employee<T> : Person
     {
-        public T Number { get; set; }
-      
+        public T Thing { get; set; }
+        public T integers { get; set; }
 
+       
     }
 }
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -11,19 +12,65 @@ namespace GenericsAssignment
     {
         static void Main(string[] args)
         {
-            Employee<string> count = new Employee<string>();
-            count.Number = "500";
 
-            Console.WriteLine("There are " + count.Number + " employees.");
+            //Task 1, 2, 3
+            List<string> names = new List<string>();
+            names.Add("James");
+            names.Add("Jerry");
+            names.Add("Jamie");
+            names.Add("Jennifer");
+
+            Console.WriteLine("Here is a list of employees who work the night shift: ");
+            Console.WriteLine();
+
+            foreach (string list in names)
+            {
+                Console.WriteLine(list);
+            }
             Console.ReadLine();
 
-            Person Person = new Person();
+            //Task 4
+            List<int> num = new List<int>();
+            num.Add(4510);
+            num.Add(4511);
+            num.Add(4512);
+            num.Add(4513);
 
-            Person.firstName = "Sample";
-            Person.lastName = "Student";
+            Console.WriteLine("Here is a list of ID numbers for each of the employees above: ");
+            Console.WriteLine();
 
-            Person.SayName();
+            foreach (int anum in num)
+            {
+                Console.WriteLine(anum);
+            }
             Console.ReadLine();
+
+            //Task 5
+
+            Console.WriteLine("If the employees name starts with 'J', their name will be printed below: ");
+
+            foreach (string j in names)
+            {
+
+                if (j.Contains("J") == true)
+                {
+                    Console.WriteLine(j + "  Type 'okay' to continue");
+                 
+                    Console.ReadLine();
+           
+                }
+
+                else
+                {
+                    Console.WriteLine("There are no names in this list that contain the letter 'J'. ");
+                    Console.ReadLine();
+                }
+
+            } Console.ReadLine();
+
+
+            
+
 
         }
     }
