@@ -1,0 +1,7 @@
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\StructsAssignment\StructsAssignment\bin\Debug\StructsAssignment.exe.config
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\StructsAssignment\StructsAssignment\bin\Debug\StructsAssignment.exe
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\StructsAssignment\StructsAssignment\bin\Debug\StructsAssignment.pdb
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\StructsAssignment\StructsAssignment\obj\Debug\StructsAssignment.csprojAssemblyReference.cache
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\StructsAssignment\StructsAssignment\obj\Debug\StructsAssignment.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\StructsAssignment\StructsAssignment\obj\Debug\StructsAssignment.exe
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\StructsAssignment\StructsAssignment\obj\Debug\StructsAssignment.pdb
