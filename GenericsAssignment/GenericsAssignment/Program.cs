@@ -12,52 +12,55 @@ namespace GenericsAssignment
     {
         static void Main(string[] args)
         {
-
+        
             //Task 1, 2, 3
-            List<string> names = new List<string>();
-            names.Add("James");
-            names.Add("Jerry");
-            names.Add("Jamie");
-            names.Add("Jennifer");
+            Employee<string> names = new Employee<string>();
+            names.Things = new List<string>();
+            names.Things.Add("James");
+            names.Things.Add("Jerry");
+            names.Things.Add("Jamie");
+            names.Things.Add("Jennifer");
 
             Console.WriteLine("Here is a list of employees who work the night shift: ");
             Console.WriteLine();
 
-            foreach (string list in names)
+            foreach (string list in names.Things)
             {
                 Console.WriteLine(list);
             }
             Console.ReadLine();
 
             //Task 4
-            List<int> num = new List<int>();
-            num.Add(4510);
-            num.Add(4511);
-            num.Add(4512);
-            num.Add(4513);
+            Employee<int> numbers = new Employee<int>();
+            numbers.Integers = new List<int>();
+            numbers.Integers.Add(4510);
+            numbers.Integers.Add(4510);
+            numbers.Integers.Add(4511);
+            numbers.Integers.Add(4512);
+            numbers.Integers.Add(4513);
 
             Console.WriteLine("Here is a list of ID numbers for each of the employees above: ");
-            Console.WriteLine();
+            
 
-            foreach (int anum in num)
+            foreach (int num1 in numbers.Integers)
             {
-                Console.WriteLine(anum);
+                Console.WriteLine(num1);
             }
             Console.ReadLine();
 
             //Task 5
 
             Console.WriteLine("If the employees name starts with 'J', their name will be printed below: ");
-
-            foreach (string j in names)
+            
+            foreach (string j in names.Things)
             {
 
                 if (j.Contains("J") == true)
                 {
                     Console.WriteLine(j + "  Type 'okay' to continue");
-                 
+
                     Console.ReadLine();
-           
+
                 }
 
                 else
@@ -66,10 +69,11 @@ namespace GenericsAssignment
                     Console.ReadLine();
                 }
 
-            } Console.ReadLine();
+            }
+            Console.ReadLine();
 
 
-            
+
 
 
         }
