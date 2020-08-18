@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading;
@@ -15,24 +16,19 @@ namespace IterationAssignment
         {
             //Task 1
             string[] animals = { "Dog", "Cat", "Horse", "Bunny" };
+            Console.WriteLine("Enter the name of a Country. This Country will display beside an array of animals below.");
+            string country = Console.ReadLine();
 
             for (int i = 0; i < animals.Length; i++)
             {
-                Console.WriteLine(animals[i]);
+                Console.WriteLine(animals[i] + ": " + country);
 
             }
-            Console.WriteLine("This is an array of animals. Type the name of an animal to be inserted into the array.");
-            string name = Console.ReadLine();
+
+            Console.ReadLine();
 
 
 
-            string[] animals2 = { "Dog", "Cat", "Horse", "Bunny", name };
-
-            for (int j = 0; j < animals2.Length; j++)
-            {
-                Console.WriteLine(animals2[j]);
-
-            }
             Console.WriteLine("Type 'okay' to see a count up from 1 to 10.");
             Console.ReadLine();
 
@@ -157,11 +153,11 @@ namespace IterationAssignment
             Console.WriteLine("Here is a new list of names:");
             Console.ReadLine();
 
-           // Task 9 / 10
+            // Task 9 / 10
 
             List<string> names11 = new List<string>() { "jane", "jane", "kelly", "ben" };
             int d = names11.IndexOf("jane");
-            int e = names11.IndexOf("jane");
+            int e = Convert.ToInt32("1");
             int f = names11.IndexOf("kelly");
             int g = names11.IndexOf("ben");
 
@@ -170,9 +166,12 @@ namespace IterationAssignment
                 Console.WriteLine(task9);
             }
 
+        here:
+
 
             Console.WriteLine("Type a name that you see in the list.");
             string word2 = Console.ReadLine();
+
 
 
             foreach (string task9 in names11)
@@ -185,14 +184,14 @@ namespace IterationAssignment
                     break;
 
                 }
-                else if (word == "kelly")
+                else if (word2 == "kelly")
                 {
                     Console.WriteLine("The index of this name is " + f + ". Type 'okay' to continue.");
                     Console.ReadLine();
                     break;
                 }
 
-                else if (word == "ben")
+                else if (word2 == "ben")
                 {
                     Console.WriteLine("The index of this name is " + g + ". Type 'okay' to continue.");
                     Console.ReadLine();
@@ -204,11 +203,12 @@ namespace IterationAssignment
                 {
                     Console.WriteLine("The name you picked is not in the list. Please type 'okay' to try again.");
                     Console.ReadLine();
+                    goto here;
 
                 }
             }
 
-            Console.WriteLine("Here is another list of names: ");
+            Console.WriteLine("Here is the list of names again: ");
             Console.ReadLine();
 
 
@@ -221,18 +221,18 @@ namespace IterationAssignment
                 Console.WriteLine(task11);
 
             }
-            Console.WriteLine("Type a lower case letter to see if it's in the list above.");
+            Console.WriteLine("Type a name to see if there is a duplicate in the list.");
             string letter5 = Console.ReadLine();
 
             foreach (string task11 in names2)
             {
-                if (task11.Contains(letter5) == false)
+                if (letter5 == task11)
                 {
-                    Console.WriteLine("Your letter isn't in this name.");
+                    Console.WriteLine(task11 + ":" + letter5 + ", This is a duplicate name.");
                 }
-                else if (task11.Contains(letter5) == true)
+                else
                 {
-                    Console.WriteLine("Your letter is in this name.");
+                    Console.WriteLine(task11 + ":" + letter5 + ", This is not a duplicate name.");
                 }
             }
 
