@@ -1,6 +1,7 @@
 ﻿using Microsoft.SqlServer.Server;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Net;
 using System.Runtime.CompilerServices;
@@ -16,12 +17,14 @@ namespace IterationAssignment
         {
             //Task 1
             string[] animals = { "Dog", "Cat", "Horse", "Bunny" };
-            Console.WriteLine("Enter the name of a Country. This Country will display beside an array of animals below.");
-            string country = Console.ReadLine();
+            Console.WriteLine("Enter an animal name to be added to the end of an array.");
+            string animal = Console.ReadLine();
+            animals = new string[] { "Dog", "Cat", "Horse", "Bunny", animal };
+
 
             for (int i = 0; i < animals.Length; i++)
             {
-                Console.WriteLine(animals[i] + ": " + country);
+                Console.WriteLine(animals[i]);
 
             }
 
@@ -211,32 +214,94 @@ namespace IterationAssignment
             Console.WriteLine("Here is the list of names again: ");
             Console.ReadLine();
 
-
-           // Task 11
+            //Task 11 redo
 
             List<string> names2 = new List<string>() { "jane", "jane", "kelly", "ben" };
+           
 
             foreach (string task11 in names2)
             {
                 Console.WriteLine(task11);
 
             }
-            Console.WriteLine("Type a name to see if there is a duplicate in the list.");
-            string letter5 = Console.ReadLine();
+
+            Console.WriteLine("Type 'okay' to determine if there's a duplicate name in the list.");
+            Console.ReadLine();
+
 
             foreach (string task11 in names2)
             {
-                if (letter5 == task11)
+                if (names2[0] == names2[1])
                 {
-                    Console.WriteLine(task11 + ":" + letter5 + ", This is a duplicate name.");
+                    Console.WriteLine($"{names2[0]} and {names2[1]} are the same.");
+                    Console.ReadLine();
+                    break;
+                }
+                if (names2[0] == names2[2])
+                {
+                    Console.WriteLine($"{names2[0]} and {names2[2]} are the same.");
+                    Console.ReadLine();
+                    break;
+                }
+                if (names2[0] == names2[3])
+                {
+                    Console.WriteLine($"{names2[0]} and {names2[3]} are the same.");
+                    Console.ReadLine();
+                    break;
+                }
+                if (names2[1] == names2[2])
+                {
+                    Console.WriteLine($"{names2[1]} and {names2[2]} are the same.");
+                    Console.ReadLine();
+                    break;
+                }
+                if (names2[1] == names2[3])
+                {
+                    Console.WriteLine($"{names2[1]} and {names2[3]} are the same.");
+                    Console.ReadLine();
+                    break;
+                }
+                if (names2[2] == names2[3])
+                {
+                    Console.WriteLine($"{names2[2]} and {names2[3]} are the same.");
+                    Console.ReadLine();
+                    break;
                 }
                 else
                 {
-                    Console.WriteLine(task11 + ":" + letter5 + ", This is not a duplicate name.");
+                    Console.WriteLine(" ");
                 }
             }
 
             Console.ReadLine();
+
+
+
+            // Task 11 first try
+
+            //List<string> names2 = new List<string>() { "jane", "jane", "kelly", "ben" };
+
+            //foreach (string task11 in names2)
+            //{
+            //    Console.WriteLine(task11);
+
+            //}
+            //Console.WriteLine("Type a name to see if there is a duplicate in the list.");
+            //string letter5 = Console.ReadLine();
+
+            //foreach (string task11 in names2)
+            //{
+            //    if (letter5 == task11)
+            //    {
+            //        Console.WriteLine(task11 + ":" + letter5 + ", This is a duplicate name.");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(task11 + ":" + letter5 + ", This is not a duplicate name.");
+            //    }
+            //}
+
+            //Console.ReadLine();
 
 
 
