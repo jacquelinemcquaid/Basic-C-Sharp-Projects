@@ -209,7 +209,7 @@ namespace IterationAssignment
 
            
 
-            Console.WriteLine("Here is the list of names again: ");
+            Console.WriteLine("Here is the list of names again, with the word 'duplicate' listed if a name is repeated.");
             Console.ReadLine();
 
            
