@@ -17,13 +17,21 @@ namespace IterationAssignment
         {
             //Task 1
             string[] animals = { "Dog", "Cat", "Horse", "Bunny" };
-            Console.WriteLine("Enter an animal name to be added to the end of an array.");
-            string animal = Console.ReadLine();
-            animals = new string[] { "Dog", "Cat", "Horse", "Bunny", animal };
-
+            Console.WriteLine("Here is an array of animals:");
 
             for (int i = 0; i < animals.Length; i++)
             {
+                Console.WriteLine(animals[i]);
+
+            }
+
+            Console.ReadLine();
+            Console.WriteLine("Enter an animal name to be added between each of the current animals in the array.");
+            string animal = Console.ReadLine();
+
+            for (int i = 0; i < animals.Length; i++)
+            {
+                animals[i] += " " + animal;
                 Console.WriteLine(animals[i]);
 
             }
@@ -153,127 +161,91 @@ namespace IterationAssignment
             }
 
 
-            Console.WriteLine("Here is a new list of names:");
-            Console.ReadLine();
 
-            // Task 9 / 10
+
+            // Task 9 / 10 redo
+
+
 
             List<string> names11 = new List<string>() { "jane", "jane", "kelly", "ben" };
-            int d = names11.IndexOf("jane");
-            int e = Convert.ToInt32("1");
-            int f = names11.IndexOf("kelly");
-            int g = names11.IndexOf("ben");
+            Console.WriteLine("Here is a new list of names:");
 
             foreach (string task9 in names11)
             {
                 Console.WriteLine(task9);
             }
 
-        here:
+            here:
+
+            Console.WriteLine("Type a name from the list to see its index number.");
+
+            string newname = Console.ReadLine();
 
 
-            Console.WriteLine("Type a name that you see in the list.");
-            string word2 = Console.ReadLine();
 
+            for (int o = 0; o <= names11.Count; o++)
 
-
-            foreach (string task9 in names11)
-
-            {
-                if (word2 == "jane")
+                try
                 {
-                    Console.WriteLine("The index of this name is " + d + " and " + e + ". Type 'okay' to continue.");
-                    Console.ReadLine();
-                    break;
+                   
+                        if (newname == names11[o])
+                        {
+                            Console.WriteLine(o);
+                            break;
+                        }
+                   
 
                 }
-                else if (word2 == "kelly")
-                {
-                    Console.WriteLine("The index of this name is " + f + ". Type 'okay' to continue.");
-                    Console.ReadLine();
-                    break;
-                }
 
-                else if (word2 == "ben")
+                catch
                 {
-                    Console.WriteLine("The index of this name is " + g + ". Type 'okay' to continue.");
-                    Console.ReadLine();
-                    break;
-                }
-
-
-                else
-                {
-                    Console.WriteLine("The name you picked is not in the list. Please type 'okay' to try again.");
-                    Console.ReadLine();
+                    Console.WriteLine("The name you entered is not in the list. Try again.");
                     goto here;
-
                 }
-            }
+
+            Console.WriteLine("Type 'okay' to continue.");
+            Console.ReadLine();
+
+
+           
 
             Console.WriteLine("Here is the list of names again: ");
             Console.ReadLine();
 
-            //Task 11 redo
+           
+            // Task 11 redo
+
 
             List<string> names2 = new List<string>() { "jane", "jane", "kelly", "ben" };
-           
+            List<string> task11 = new List<string>();
+            foreach (string name in names2)
 
-            foreach (string task11 in names2)
             {
-                Console.WriteLine(task11);
-
-            }
-
-            Console.WriteLine("Type 'okay' to determine if there's a duplicate name in the list.");
-            Console.ReadLine();
-
-
-            foreach (string task11 in names2)
-            {
-                if (names2[0] == names2[1])
+                if (task11.Contains(name))
                 {
-                    Console.WriteLine($"{names2[0]} and {names2[1]} are the same.");
-                    Console.ReadLine();
-                    break;
-                }
-                if (names2[0] == names2[2])
-                {
-                    Console.WriteLine($"{names2[0]} and {names2[2]} are the same.");
-                    Console.ReadLine();
-                    break;
-                }
-                if (names2[0] == names2[3])
-                {
-                    Console.WriteLine($"{names2[0]} and {names2[3]} are the same.");
-                    Console.ReadLine();
-                    break;
-                }
-                if (names2[1] == names2[2])
-                {
-                    Console.WriteLine($"{names2[1]} and {names2[2]} are the same.");
-                    Console.ReadLine();
-                    break;
-                }
-                if (names2[1] == names2[3])
-                {
-                    Console.WriteLine($"{names2[1]} and {names2[3]} are the same.");
-                    Console.ReadLine();
-                    break;
-                }
-                if (names2[2] == names2[3])
-                {
-                    Console.WriteLine($"{names2[2]} and {names2[3]} are the same.");
-                    Console.ReadLine();
-                    break;
+                    Console.WriteLine("This is a duplicate");
                 }
                 else
                 {
-                    Console.WriteLine(" ");
+                    Console.WriteLine(name);
+                    task11.Add(name);
                 }
+            }
+            Console.ReadLine();
+
+            foreach (string end in names2)
+            {
+
             }
 
             Console.ReadLine();
+
+            
+
+
+
+
+
 
 
 
@@ -303,14 +275,122 @@ namespace IterationAssignment
 
             //Console.ReadLine();
 
+            //Task 11 second try
+
+            //Console.WriteLine("Type 'okay' to determine if there's a duplicate name in the list.");
+            //Console.ReadLine();
 
 
+            //foreach (string task11 in names2)
+            //{
+            //    if (names2[0] == names2[1])
+            //    {
+            //        Console.WriteLine($"{names2[0]} and {names2[1]} are the same.");
+            //        Console.ReadLine();
+            //        break;
+            //    }
+            //    if (names2[0] == names2[2])
+            //    {
+            //        Console.WriteLine($"{names2[0]} and {names2[2]} are the same.");
+            //        Console.ReadLine();
+            //        break;
+            //    }
+            //    if (names2[0] == names2[3])
+            //    {
+            //        Console.WriteLine($"{names2[0]} and {names2[3]} are the same.");
+            //        Console.ReadLine();
+            //        break;
+            //    }
+            //    if (names2[1] == names2[2])
+            //    {
+            //        Console.WriteLine($"{names2[1]} and {names2[2]} are the same.");
+            //        Console.ReadLine();
+            //        break;
+            //    }
+            //    if (names2[1] == names2[3])
+            //    {
+            //        Console.WriteLine($"{names2[1]} and {names2[3]} are the same.");
+            //        Console.ReadLine();
+            //        break;
+            //    }
+            //    if (names2[2] == names2[3])
+            //    {
+            //        Console.WriteLine($"{names2[2]} and {names2[3]} are the same.");
+            //        Console.ReadLine();
+            //        break;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(" ");
+            //    }
+            //}
+
+            //Console.ReadLine();
+
+
+
+            //    // Task 9 / 10 first try
+
+            //    List<string> names11 = new List<string>() { "jane", "jane", "kelly", "ben" };
+            //    int d = names11.IndexOf("jane");
+            //    int e = Convert.ToInt32("1");
+            //    int f = names11.IndexOf("kelly");
+            //    int g = names11.IndexOf("ben");
+
+            //    foreach (string task9 in names11)
+            //    {
+            //        Console.WriteLine(task9);
+            //    }
+
+            //here:
+
+
+            //    Console.WriteLine("Type a name that you see in the list.");
+            //    string word2 = Console.ReadLine();
+
+
+
+            //    foreach (string task9 in names11)
+
+            //    {
+            //        if (word2 == "jane")
+            //        {
+            //            Console.WriteLine("The index of this name is " + d + " and " + e + ". Type 'okay' to continue.");
+            //            Console.ReadLine();
+            //            break;
+
+            //        }
+            //        else if (word2 == "kelly")
+            //        {
+            //            Console.WriteLine("The index of this name is " + f + ". Type 'okay' to continue.");
+            //            Console.ReadLine();
+            //            break;
+            //        }
+
+            //        else if (word2 == "ben")
+            //        {
+            //            Console.WriteLine("The index of this name is " + g + ". Type 'okay' to continue.");
+            //            Console.ReadLine();
+            //            break;
+            //        }
+
+
+            //        else
+            //        {
+            //            Console.WriteLine("The name you picked is not in the list. Please type 'okay' to try again.");
+            //            Console.ReadLine();
+            //            goto here;
+
+            //        }
+            //    }
+
+            //    Console.WriteLine("Here is the list of names again: ");
+            //    Console.ReadLine();
 
 
 
 
         }
-
 
 
 
