@@ -29,7 +29,7 @@ namespace LambdaExpressionAssignment
             employees.Add(new Employees() { firstName = "Matt", lastName = "McQuaid", Id = 6709 });
             employees.Add(new Employees() { firstName = "Faith", lastName = "Sharp", Id = 6710 });
 
-       
+
             Console.WriteLine("Here is a list of employees:");
 
             foreach (var item in employees)
@@ -40,50 +40,47 @@ namespace LambdaExpressionAssignment
 
             //Task2
 
-            Console.WriteLine("If the employees first name is 'Joe', their name will be printed below:");
-         
+            Console.WriteLine("If the employees first name is 'Joe', their information will be printed below:");
+
 
             foreach (Employees name in employees)
             {
-                if (Employees.firstName = "Joe")
+                if (Employees.firstName == "Joe")
                 {
+
                     Console.WriteLine(name);
 
 
                 }
+
+
                 Console.ReadLine();
 
-                //Exercise if this were just string values
-
-                //List<string> firstnames = new List<string>();
-                //firstnames.Add("Katie");
-                //firstnames.Add("Joe");
-                //firstnames.Add("Jamie");
-                //firstnames.Add("Alexis");
-                //firstnames.Add("Joe");
-                //firstnames.Add("Bella");
-                //firstnames.Add("Fiona");
-                //firstnames.Add("Chris");
-                //firstnames.Add("Matt");
-                //firstnames.Add("Faith");
-
-                //foreach (string name in firstnames)
-                //{
-
-                //    if (name.Equals("Joe"))
-                //    {
-                //        Console.WriteLine(name);
-
-                //    }
-                //}
-
-                //Console.ReadLine();
-
-
-
-                //lambda task
-
             }
+            //lambda tasks
+
+            Console.WriteLine("Here is a list of employees with the first name 'Joe'.");
+
+            foreach (Employees person in employees.FindAll(e => (e.firstName == "Joe")).ToList())
+            {
+                Console.WriteLine("Name : " + person.firstName + " Last Name: " + person.lastName + " ID: " + person.Id);
+            }
+            Console.ReadLine();
+
+
+
+
+            Console.WriteLine("Here is a list of employees with an Id number greater than 5.");
+
+            foreach (Employees people in employees.FindAll(x => (x.Id > 5)).ToList())
+            {
+                Console.WriteLine("Name : " + people.firstName + " Last Name: " + people.lastName + " ID: " + people.Id);
+            }
+
+            Console.ReadLine();
+
         }
+
+
     }
 }

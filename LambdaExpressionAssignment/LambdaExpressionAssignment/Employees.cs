@@ -20,18 +20,8 @@ namespace LambdaExpressionAssignment
             return "First Name: " + firstName + "   Last Name: " + lastName + "   ID: " + Id;
         }
 
-        public void Method()
-        {
-            foreach (var name in firstName)
-            {
-                if (name.Equals("Joe") == true)
-                {
-                    Console.WriteLine(name);
-
-
-              }
-
-            } }
+       
+        
     }
 }
 
