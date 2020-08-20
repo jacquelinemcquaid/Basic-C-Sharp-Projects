@@ -1,0 +1,7 @@
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\LambdaExpressionAssignment\LambdaExpressionAssignment\bin\Debug\LambdaExpressionAssignment.exe.config
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\LambdaExpressionAssignment\LambdaExpressionAssignment\bin\Debug\LambdaExpressionAssignment.exe
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\LambdaExpressionAssignment\LambdaExpressionAssignment\bin\Debug\LambdaExpressionAssignment.pdb
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\LambdaExpressionAssignment\LambdaExpressionAssignment\obj\Debug\LambdaExpressionAssignment.csprojAssemblyReference.cache
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\LambdaExpressionAssignment\LambdaExpressionAssignment\obj\Debug\LambdaExpressionAssignment.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\LambdaExpressionAssignment\LambdaExpressionAssignment\obj\Debug\LambdaExpressionAssignment.exe
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\LambdaExpressionAssignment\LambdaExpressionAssignment\obj\Debug\LambdaExpressionAssignment.pdb
