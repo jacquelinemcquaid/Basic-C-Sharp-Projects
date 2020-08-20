@@ -42,19 +42,18 @@ namespace LambdaExpressionAssignment
 
             Console.WriteLine("If the employees first name is 'Joe', their information will be printed below:");
 
-
             foreach (Employees name in employees)
             {
-                if (Employees.firstName == "Joe")
+                if (name.firstName == "Joe")
                 {
 
-                    Console.WriteLine(name);
-
+                    Console.WriteLine("First Name : " + name.firstName + " Last Name: " + name.lastName + " ID: " + name.Id);
 
                 }
 
-
                 Console.ReadLine();
+
+          
 
             }
             //lambda tasks
@@ -63,7 +62,7 @@ namespace LambdaExpressionAssignment
 
             foreach (Employees person in employees.FindAll(e => (e.firstName == "Joe")).ToList())
             {
-                Console.WriteLine("Name : " + person.firstName + " Last Name: " + person.lastName + " ID: " + person.Id);
+                Console.WriteLine("First Name : " + person.firstName + " Last Name: " + person.lastName + " ID: " + person.Id);
             }
             Console.ReadLine();
 
