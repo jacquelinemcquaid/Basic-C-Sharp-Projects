@@ -1,0 +1,7 @@
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\AdditionalFeaturesAssignment\AdditionalFeaturesAssignment\bin\Debug\AdditionalFeaturesAssignment.exe.config
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\AdditionalFeaturesAssignment\AdditionalFeaturesAssignment\bin\Debug\AdditionalFeaturesAssignment.exe
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\AdditionalFeaturesAssignment\AdditionalFeaturesAssignment\bin\Debug\AdditionalFeaturesAssignment.pdb
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\AdditionalFeaturesAssignment\AdditionalFeaturesAssignment\obj\Debug\AdditionalFeaturesAssignment.csprojAssemblyReference.cache
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\AdditionalFeaturesAssignment\AdditionalFeaturesAssignment\obj\Debug\AdditionalFeaturesAssignment.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\AdditionalFeaturesAssignment\AdditionalFeaturesAssignment\obj\Debug\AdditionalFeaturesAssignment.exe
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\AdditionalFeaturesAssignment\AdditionalFeaturesAssignment\obj\Debug\AdditionalFeaturesAssignment.pdb
