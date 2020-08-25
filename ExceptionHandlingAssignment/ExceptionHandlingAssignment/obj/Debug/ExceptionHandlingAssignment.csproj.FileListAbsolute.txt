@@ -1,0 +1,7 @@
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ExceptionHandlingAssignment\ExceptionHandlingAssignment\bin\Debug\ExceptionHandlingAssignment.exe.config
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ExceptionHandlingAssignment\ExceptionHandlingAssignment\bin\Debug\ExceptionHandlingAssignment.exe
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ExceptionHandlingAssignment\ExceptionHandlingAssignment\bin\Debug\ExceptionHandlingAssignment.pdb
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ExceptionHandlingAssignment\ExceptionHandlingAssignment\obj\Debug\ExceptionHandlingAssignment.csprojAssemblyReference.cache
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ExceptionHandlingAssignment\ExceptionHandlingAssignment\obj\Debug\ExceptionHandlingAssignment.csproj.CoreCompileInputs.cache
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ExceptionHandlingAssignment\ExceptionHandlingAssignment\obj\Debug\ExceptionHandlingAssignment.exe
+C:\Users\jacqu\OneDrive\Desktop\C# and .NET Framework\ExceptionHandlingAssignment\ExceptionHandlingAssignment\obj\Debug\ExceptionHandlingAssignment.pdb
