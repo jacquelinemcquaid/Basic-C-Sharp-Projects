@@ -42,7 +42,7 @@ namespace ExceptionHandlingAssignment
 
 
                 DateTime yearBorn = now.AddYears(-age);
-                Console.WriteLine("This is the date you were born: " + yearBorn);
+                Console.WriteLine("This is the year you were born: " + yearBorn.ToString("yyyy"));
 
                 Console.ReadLine();
 
